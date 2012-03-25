@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1332175881 source:c:\users\neckara\desktop\patcher (sources)\main.cpp
+	"include/Principal.h"
+
+1332175761 source:c:\users\neckara\desktop\patcher (sources)\src\param.cpp
+	"../include/Param.h"
+
+1332175728 c:\users\neckara\desktop\patcher (sources)\include\param.h
+	<cstdlib>
+	<iostream>
+	<string>
+	<fstream>
+	<limits>
+	<SFML/Graphics.hpp>
+	<wchar.h>
+
+1332175723 source:c:\users\neckara\desktop\patcher (sources)\src\images.cpp
+	"..\include\Images.h"
+
+1332175469 c:\users\neckara\desktop\patcher (sources)\include\images.h
+	<cstdlib>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Param.h"
+
+1332667903 c:\users\neckara\desktop\patcher (sources)\include\principal.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Images.h"
+	"Serveur.h"
+	"Param.h"
+	"Progression.h"
+	"Bouton.h"
+	<string>
+
+1332667774 source:c:\users\neckara\desktop\patcher (sources)\src\principal.cpp
+	"..\include\Principal.h"
+
+1332667479 source:c:\users\neckara\desktop\patcher (sources)\src\serveur.cpp
+	"../include/Serveur.h"
+
+1332667945 c:\users\neckara\desktop\patcher (sources)\include\serveur.h
+	<SFML/Network.hpp>
+	<iostream>
+	<string>
+	<sstream>
+	<fstream>
+	<cstdlib>
+	"Param.h"
+	"Progression.h"
+	"Bouton.h"
+
+1332008559 c:\users\neckara\desktop\patcher (sources)\include\texte.h
+	<SFML/Graphics.hpp>
+	"Param.h"
+
+1332089786 c:\users\neckara\desktop\patcher (sources)\include\progression.h
+	<SFML/Graphics.hpp>
+	"images.h"
+	"param.h"
+	<sstream>
+
+1332093296 source:c:\users\neckara\desktop\patcher (sources)\src\progression.cpp
+	"../include/Progression.h"
+
+1332587895 source:c:\users\neckara\desktop\patcher (sources)\src\bouton.cpp
+	"../include/Bouton.h"
+
+1332667815 c:\users\neckara\desktop\patcher (sources)\include\bouton.h
+	<SFML/Graphics.hpp>
+	<cstdlib>
+	<iostream>
+

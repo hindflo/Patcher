@@ -1,0 +1,30 @@
+Ces fichiers ont été créés dans le cadre du Projet Last Dungeon qui réserve tous ses droits.
+
+Pour que nous puissions savoir ce qui est fait avec ces sources, merci de nous contacter pour toute (ré-)utilisation de celles-ci (Neckara.LastDungeon@gmail.com, réponse en moins de 12h)
+
+Ce dépôt contient un gestionnaire de mises à jours (installation, désinstallation, mises à jour) client et serveur.
+
+Partie serveur :
+
+Admin.php : administration des versions
+A faire :
+- Changer de noms
+- Changer de source
+- Changer de position
+- Annuler les modifications du fichiers (suppression, mise à jour, changement de position, changement de source)
+- Créer une colonne source_futur
+
+Patcher.php : donne les instruction à effectuer.
+A faire :
+- Mode pré-calcul : créé les fichier et les lis
+- Mode sans pré-calcul : ne créé pas de fichier.
+
+A faire (général) : Commenter et réécrire le code plus proprement.
+
+
+Partie client :
+- Commenter et réécrire le code plus proprement.
+- Rajouter l'instruction "vérifier".
+- Dans les fonctions, passer par référence au lieu de faire des copies
+- Dans les bouton : permettre l'absence de fonction, d'argument, de classes.
+- Gérer les exeptions

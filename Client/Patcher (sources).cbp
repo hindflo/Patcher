@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Patcher (sources)" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compilerget" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Patcher (sources)" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compilerget" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Patcher (sources)" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compilerget" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-DSFML_DYNAMIC" />
+		</Compiler>
+		<Linker>
+			<Add option="-lsfml-audio" />
+			<Add option="-lsfml-graphics" />
+			<Add option="-lsfml-window" />
+			<Add option="-lsfml-system" />
+			<Add option="-lsfml-network" />
+			<Add option="-lsfml-audio-d" />
+			<Add option="-lsfml-graphics-d" />
+			<Add option="-lsfml-window-d" />
+			<Add option="-lsfml-system-d" />
+			<Add option="-lsfml-network-d" />
+			<Add option="-lsfml-main" />
+		</Linker>
+		<Unit filename="include\Bouton.h" />
+		<Unit filename="include\Images.h" />
+		<Unit filename="include\Param.h" />
+		<Unit filename="include\Principal.h" />
+		<Unit filename="include\Progression.h" />
+		<Unit filename="include\Serveur.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src\Bouton.cpp" />
+		<Unit filename="src\Images.cpp" />
+		<Unit filename="src\Param.cpp" />
+		<Unit filename="src\Principal.cpp" />
+		<Unit filename="src\Progression.cpp" />
+		<Unit filename="src\Serveur.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
